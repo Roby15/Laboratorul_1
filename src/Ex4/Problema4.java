@@ -15,7 +15,7 @@ public class Problema4 {
             i=a;
         else if(a<b)
             i=b;
-        while (ok==0)
+        while (ok==0||i==1)
         {
             if(a%i==0 && b%i==0)
             {
